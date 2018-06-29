@@ -5,11 +5,16 @@ In this project, we will be building a semantic segmentation network using fully
 [image_0]: ./images/network.JPG
 [image_1]: ./images/epoch10.JPG
 [image_2]: ./images/epoch50.JPG
+[image_3]: ./images/model.JPG
 
 ## Architecture ##
 ![architecture][image_0] 
 
 The network architecure used in this projected is as shown above. It is a typically fully convolutional network composed of encoder section followed by 1x1 convolution layer and finally a decoder section.
+
+ the model is as follows
+ 
+![model][image_3]
 
 ### encoder ###
 The encoder section is a convolution network that reduces to a deeper 1x1 convolution layer, in contrast to a flat fully connected layer that would be used for basic classification of images.
