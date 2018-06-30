@@ -67,6 +67,11 @@ train/val loss after 50 epochs
 
 The final IOU is 0.56, and final score is 0.415
 
+### Model extension ###
+This model should be able to use to follow other types of objects, like dog, cat or car etc. As long as we provide relevant training set, to train the system to recognise and detect that object class.
+
+The model should not be limited to follow human, the model is based on semantic segmentation which works on pixel level, as long as the model is trained with proper training set, it should be able to detect and classify proper objects.
+
 ## Improvements
 * adding more data should give better result. I tried to add some extra images to the dataset, but the result doesn't seem to have any significant effects. Probably what i have collected is too small a dataset, it needs more data before it show significant improvement.
 * will be interesting to train the network to follow a car or other objects.
